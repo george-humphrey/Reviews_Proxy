@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mendocino Farms</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="topBar">
+        <img id="logo" src="./img/logo.png" />
+
+        <div id="search">
+          <input
+            type="text"
+            id="searchBar"
+            placeholder="tacos, cheap dinner, Max's"
+          />
+          <input type="text" id="locationBar" placeholder="San Francisco, CA" />
+          <button id="searchButton">??</button>
+        </div>
+
+        <div id="navigation">
+          <button id="business">For Businesses</button>
+          <button id="reviews">Write a Review</button>
+          <button id="login">Log In</button>
+          <button id="signup">Sign Up</button>
+        </div>
+      </div>
+
+      <br />
+
+      <div id="dropDowns">
+        <div class="dropDown">
+          <button class="dropButton">Restaurants</button>
+          <div class="dropContent" id="restaurantDropDown">
+            <a href="#">Delivery</a>
+            <a href="#">Takeout</a>
+            <a href="#">Reservations</a>
+            <a href="#">Waitlist</a>
+          </div>
+        </div>
+
+        <div class="dropDown">
+          <button class="dropButton">Home Services</button>
+          <div class="dropContent" id="homeDropDown">
+            <a href="#">Contractors</a>
+            <a href="#">Landscaping</a>
+            <a href="#">Electricians</a>
+            <a href="#">Locksmiths</a>
+          </div>
+        </div>
+
+        <div class="dropDown">
+          <button class="dropButton">Auto Services</button>
+          <div class="dropContent" id="autoDropDown">
+            <a href="#">Auto Repair</a>
+            <a href="#">Car Dealers</a>
+            <a href="#">Auto Detailing</a>
+            <a href="#">Oil Change</a>
+          </div>
+        </div>
+
+        <div class="dropDown">
+          <button class="dropButton">More</button>
+          <div class="dropContent" id="moreDropDown">
+            <a href="#">Dry Cleaning</a>
+            <a href="#">Hair Salons</a>
+            <a href="#">Phone Repair</a>
+            <a href="#">Gyms</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pageInfo"></div>
+    <div id="allReviews"></div>
+  </body>
+</html>

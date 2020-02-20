@@ -1,0 +1,61 @@
+body {
+  font-family: 'Helvetic Neue', Helvetica, Arial, sans-serif;
+  color: #333333;
+  overflow: scroll;
+}
+
+#topBar {
+  width: 100vw;
+  height: 30px;
+  margin: 10px;
+}
+
+#logo {
+  float: left;
+  width: 80px;
+  height: 40px;
+  margin: 4px 40px 4px 0px;
+}
+
+#search {
+  float: left;
+  text-align: center;
+}
+
+#search {
+  text-align: center;
+  max-width
+}
+
+#navigation {
+  float: right;
+}
+
+#dropDowns {
+  text-align: center;
+  width: 100vw;
+  height: 30px;
+}
+
+.dropDown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropButton {
+  cursor: pointer;
+}
+
+.dropContent {
+  display: none;
+  position: absolute;
+}
+
+.dropContent a {
+  color: black;
+  display: block;
+}
+
+.dropDown:hover .dropContent {
+  display: block;
+}
